@@ -1,5 +1,7 @@
 package com.myblog.myblog1.entity;
 
+
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,8 +13,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-
-
 public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,3 +21,4 @@ public class Post {
     private String description;
     private String content;
 }
+
